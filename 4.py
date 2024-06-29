@@ -3,7 +3,7 @@ import requests     # Для http запросов
 from telegram import Update # Для работы с телеграмом
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, filters, MessageHandler  # Для выполнения комманд
 
-token = '7118744845:AAHYAUe1-i7YuZIwaW6LhDxQdljzoK3YPoU'    # Токен бота
+token = ''    # Токен бота
 
 logging.basicConfig(    # Настройки логгирования
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
